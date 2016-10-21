@@ -18,3 +18,11 @@ class Student < Person
       'Everything in Ruby is an object'
     end
 end
+
+chris = Instructor.new("Chris")
+cristina = Student.new("Cristina")
+
+puts chris.greeting
+puts cristina.greeting
+puts chris.teach
+puts cristina.learn
